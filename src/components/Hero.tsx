@@ -1,21 +1,25 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Calculator, FileText, Users, TrendingUp } from 'lucide-react';
-
 const Hero = () => {
-  return (
-    <section id="inicio" className="relative min-h-screen flex items-center pt-24 bg-gradient-hero overflow-hidden">
+  return <section id="inicio" className="relative min-h-screen flex items-center pt-24 bg-gradient-hero overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 animate-float">
           <Calculator size={40} className="text-primary-foreground" />
         </div>
-        <div className="absolute top-40 right-20 animate-float" style={{ animationDelay: '1s' }}>
+        <div className="absolute top-40 right-20 animate-float" style={{
+        animationDelay: '1s'
+      }}>
           <FileText size={35} className="text-primary-foreground" />
         </div>
-        <div className="absolute bottom-40 left-20 animate-float" style={{ animationDelay: '2s' }}>
+        <div className="absolute bottom-40 left-20 animate-float" style={{
+        animationDelay: '2s'
+      }}>
           <Users size={45} className="text-primary-foreground" />
         </div>
-        <div className="absolute bottom-20 right-10 animate-float" style={{ animationDelay: '0.5s' }}>
+        <div className="absolute bottom-20 right-10 animate-float" style={{
+        animationDelay: '0.5s'
+      }}>
           <TrendingUp size={38} className="text-primary-foreground" />
         </div>
       </div>
@@ -35,21 +39,14 @@ const Hero = () => {
             </h2>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-              <Button 
-                size="lg"
-                onClick={() => window.open('https://wa.me/5516032024972', '_blank')}
-                className="bg-secondary hover:bg-secondary-light text-secondary-foreground px-8 py-3 text-lg font-semibold shadow-medium"
-              >
+              <Button size="lg" onClick={() => window.open('https://wa.me/5516032024972', '_blank')} className="bg-secondary hover:bg-secondary-light text-secondary-foreground px-8 py-3 text-lg font-semibold shadow-medium">
                 Falar pelo WhatsApp
                 <ArrowRight className="ml-2" size={20} />
               </Button>
               
-              <Button 
-                variant="outline"
-                size="lg"
-                onClick={() => document.getElementById('servicos')?.scrollIntoView({ behavior: 'smooth' })}
-                className="border-primary-foreground/60 text-primary-foreground hover:bg-primary-foreground/10 px-8 py-3 text-lg"
-              >
+              <Button variant="outline" size="lg" onClick={() => document.getElementById('servicos')?.scrollIntoView({
+              behavior: 'smooth'
+            })} className="border-primary-foreground/60 text-primary-foreground px-8 py-3 text-lg bg-zinc-950 hover:bg-zinc-800">
                 Nossos Serviços
               </Button>
             </div>
@@ -76,8 +73,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
