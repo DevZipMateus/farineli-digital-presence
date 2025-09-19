@@ -24,9 +24,7 @@ const Header = () => {
   };
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-background/95 backdrop-blur-sm shadow-soft' : 'bg-transparent'
-    }`}>
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-soft transition-all duration-300">
       {/* Top bar with contact info */}
       <div className="bg-primary text-primary-foreground py-2 text-sm">
         <div className="container mx-auto px-4">
