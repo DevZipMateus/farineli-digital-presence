@@ -27,6 +27,15 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative">
         <div className="max-w-4xl mx-auto text-center text-primary-foreground">
           <div className="animate-fade-in-up">
+            {/* Logo */}
+            <div className="mb-8 flex justify-center">
+              <img 
+                src="/logo-hero-farineli.png" 
+                alt="Farineli Contabilidade - Símbolo do Caduceu" 
+                className="h-24 md:h-32 w-auto filter brightness-0 invert opacity-90"
+              />
+            </div>
+
             {/* H1 - Nome da empresa */}
             <h1 className="text-5xl md:text-7xl font-playfair font-bold mb-6">
               Farineli Contabilidade
