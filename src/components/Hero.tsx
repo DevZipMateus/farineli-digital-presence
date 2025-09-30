@@ -43,7 +43,7 @@ const Hero = () => {
 
             {/* H2 - Descrição da empresa */}
             <h2 className="text-xl md:text-2xl font-light mb-8 max-w-3xl mx-auto leading-relaxed">
-              Empresa familiar especializada em serviços contábeis, fiscais, RH e assessoria financeira. 
+              Empresa especializada em serviços contábeis, fiscais, RH e assessoria financeira. 
               Oferecemos soluções completas para regularização de empresas e planejamento estratégico.
             </h2>
 
@@ -68,7 +68,7 @@ const Hero = () => {
               </div>
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold mb-2">100%</div>
-                <div className="text-sm opacity-90">Empresa familiar</div>
+                <div className="text-sm opacity-90">Satisfação</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold mb-2">5</div>

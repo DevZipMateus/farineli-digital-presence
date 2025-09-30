@@ -20,7 +20,7 @@ const Footer = () => {
                 className="h-12 w-auto mb-4 brightness-0 invert"
               />
               <p className="text-primary-foreground/80 mb-4 leading-relaxed">
-                Empresa familiar especializada em serviços contábeis, fiscais, RH e assessoria 
+                Empresa especializada em serviços contábeis, fiscais, RH e assessoria 
                 financeira. Oferecemos soluções completas para o crescimento do seu negócio.
               </p>
               <div className="flex gap-4">

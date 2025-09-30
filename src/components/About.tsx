@@ -5,7 +5,7 @@ const About = () => {
   const values = [
     {
       icon: Heart,
-      title: "Atendimento familiar",
+      title: "Atendimento personalizado",
       description: "Relacionamento próximo e personalizado com cada cliente"
     },
     {
@@ -35,7 +35,7 @@ const About = () => {
               Sobre a Farineli
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Uma empresa familiar com tradição e inovação no mercado contábil
+              Tradição e inovação no mercado contábil
             </p>
           </div>
 
@@ -47,7 +47,7 @@ const About = () => {
               </h3>
               <div className="space-y-4 text-lg leading-relaxed text-foreground">
                 <p>
-                  A Farineli Contabilidade é uma empresa familiar que se dedica a oferecer 
+                  A Farineli Contabilidade se dedica a oferecer 
                   serviços contábeis, fiscais e de consultoria com excelência e comprometimento.
                 </p>
                 <p>
@@ -57,7 +57,7 @@ const About = () => {
                 </p>
                 <p>
                   Nosso diferencial é o atendimento personalizado e a proximidade com nossos 
-                  clientes, características que só uma empresa familiar pode proporcionar.
+                  clientes.
                 </p>
               </div>
             </div>
