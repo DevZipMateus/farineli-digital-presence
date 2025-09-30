@@ -7,7 +7,8 @@ import {
   Database, 
   TrendingUp, 
   CheckCircle,
-  Phone
+  Phone,
+  Briefcase
 } from 'lucide-react';
 
 const Services = () => {
@@ -65,6 +66,17 @@ const Services = () => {
         "Fluxo de caixa",
         "Planejamento estratégico",
         "Relatórios gerenciais"
+      ]
+    },
+    {
+      icon: Briefcase,
+      title: "Assessoria Administrativa",
+      description: "Suporte completo na gestão administrativa, otimização de processos e consultoria empresarial.",
+      features: [
+        "Gestão de processos",
+        "Consultoria empresarial",
+        "Otimização administrativa",
+        "Suporte à gestão"
       ]
     }
   ];
