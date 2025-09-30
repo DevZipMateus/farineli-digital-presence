@@ -1,32 +1,24 @@
 import { Card } from '@/components/ui/card';
 import { Heart, Shield, Clock, Award } from 'lucide-react';
-
 const About = () => {
-  const values = [
-    {
-      icon: Heart,
-      title: "Atendimento personalizado",
-      description: "Relacionamento próximo e personalizado com cada cliente"
-    },
-    {
-      icon: Shield,
-      title: "Confiança",
-      description: "Transparência e segurança em todos os processos"
-    },
-    {
-      icon: Clock,
-      title: "Agilidade",
-      description: "Prazos cumpridos e respostas rápidas"
-    },
-    {
-      icon: Award,
-      title: "Excelência",
-      description: "Qualidade e precisão em todos os serviços"
-    }
-  ];
-
-  return (
-    <section id="sobre" className="py-20 bg-gradient-subtle">
+  const values = [{
+    icon: Heart,
+    title: "Atendimento personalizado",
+    description: "Relacionamento próximo e personalizado com cada cliente"
+  }, {
+    icon: Shield,
+    title: "Confiança",
+    description: "Transparência e segurança em todos os processos"
+  }, {
+    icon: Clock,
+    title: "Agilidade",
+    description: "Prazos cumpridos e respostas rápidas"
+  }, {
+    icon: Award,
+    title: "Excelência",
+    description: "Qualidade e precisão em todos os serviços"
+  }];
+  return <section id="sobre" className="py-20 bg-gradient-subtle">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           {/* Título da seção */}
@@ -55,10 +47,7 @@ const About = () => {
                   e contábil. Nossa especialidade está na regularização de empresas e no 
                   oferecimento de relatórios e planejamento estratégico para tomada de decisões.
                 </p>
-                <p>
-                  Nosso diferencial é o atendimento personalizado e a proximidade com nossos 
-                  clientes.
-                </p>
+                <p>Nosso diferencial é o atendimento personalizado e a proximidade com nossos clientes, características que só uma empresa totalmente dedicada pode proporcionar. Além disso contamos com profissionais com vasta experiência em diversos segmentos de mercado, onde se destaca principalmente a área de construção civil dando suporte desde o planejamento da obra.</p>
               </div>
             </div>
 
@@ -92,12 +81,9 @@ const About = () => {
 
           {/* Valores */}
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {values.map((value, index) => (
-              <Card 
-                key={index}
-                className="p-6 text-center hover:shadow-medium transition-all duration-300 animate-fade-in-up group"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
+            {values.map((value, index) => <Card key={index} className="p-6 text-center hover:shadow-medium transition-all duration-300 animate-fade-in-up group" style={{
+            animationDelay: `${index * 0.1}s`
+          }}>
                 <div className="mb-4 flex justify-center">
                   <div className="p-3 bg-secondary-lighter rounded-full group-hover:bg-secondary transition-colors">
                     <value.icon size={24} className="text-secondary group-hover:text-secondary-foreground" />
@@ -107,13 +93,10 @@ const About = () => {
                 <p className="text-muted-foreground text-sm leading-relaxed">
                   {value.description}
                 </p>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
