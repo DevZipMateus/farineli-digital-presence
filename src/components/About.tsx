@@ -36,10 +36,7 @@ const About = () => {
                 Nossa história
               </h3>
               <div className="space-y-4 text-lg leading-relaxed text-foreground">
-                <p>
-                  A Farineli Contabilidade se dedica a oferecer 
-                  serviços contábeis, fiscais e de consultoria com excelência e comprometimento.
-                </p>
+                <p>A Farineli Contabilidade se dedica a oferecer serviços contábeis, fiscais e de consultoria com excelência e comprometimento com foco no cliente, seja Pessoa Jurídica ou Pessoa Física;.</p>
                 <p>
                   Gerenciamos finanças, controlamos folha de pagamento e documentação fiscal 
                   e contábil. Nossa especialidade está na regularização de empresas e no 
