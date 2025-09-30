@@ -29,11 +29,7 @@ const Hero = () => {
           <div className="animate-fade-in-up">
             {/* Logo */}
             <div className="mb-8 flex justify-center">
-              <img 
-                src="/logo-hero-farineli.png" 
-                alt="Farineli Contabilidade - Símbolo do Caduceu" 
-                className="h-24 md:h-32 w-auto filter brightness-0 invert opacity-90"
-              />
+              <img src="/logo-hero-farineli.png" alt="Farineli Contabilidade - Símbolo do Caduceu" className="h-24 md:h-32 w-auto filter brightness-0 invert opacity-90" />
             </div>
 
             {/* H1 - Nome da empresa */}
@@ -42,10 +38,7 @@ const Hero = () => {
             </h1>
 
             {/* H2 - Descrição da empresa */}
-            <h2 className="text-xl md:text-2xl font-light mb-8 max-w-3xl mx-auto leading-relaxed">
-              Empresa especializada em serviços contábeis, fiscais, RH e assessoria financeira. 
-              Oferecemos soluções completas para regularização de empresas e planejamento estratégico.
-            </h2>
+            <h2 className="text-xl md:text-2xl font-light mb-8 max-w-3xl mx-auto leading-relaxed">: Empresa especializada em serviços contábeis, fiscais, RH, Assessoria financeira e administrativa. Oferecemos soluções completas para regularização de empresas e planejamento estratégico.</h2>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
               <Button size="lg" onClick={() => window.open('https://wa.me/5516032024972', '_blank')} className="bg-secondary hover:bg-secondary-light text-secondary-foreground px-8 py-3 text-lg font-semibold shadow-medium">
