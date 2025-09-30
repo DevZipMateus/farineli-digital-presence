@@ -23,9 +23,7 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           {/* Título da seção */}
           <div className="text-center mb-16 animate-fade-in-up">
-            <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6 text-primary">
-              Sobre a Farineli
-            </h2>
+            <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6 text-primary">Sobre a Farineli Contabilidade</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Tradição e inovação no mercado contábil
             </p>
